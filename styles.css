@@ -1,0 +1,126 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #333;
+    color: #fff;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+  
+  /* Home Section with Slideshow */
+  .home {
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+  }
+  /* Add this CSS code to your styles.css file */
+
+/* Slideshow Container */
+.slideshow-container {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Slides */
+.mySlides {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .centered-image {
+    max-width: 100%; /* Ensure the image does not exceed its container */
+    height: auto; /* Maintain the image's aspect ratio */
+  }
+
+/* Individual Slide Images */
+.mySlides img {
+  max-width: 100%; /* Adjust the width as needed for your layout */
+  height: auto;
+  object-fit: cover; /* Ensure the images fill the slide */
+  flex: 1; /* Distribute available space equally between images */
+}
+
+/* JavaScript will control the active slide's opacity */
+
+  
+  /* Add your slideshow animation styles here */
+  
+  /* Menu Section */
+  .menu {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  /* Add styles for menu items here */
+  
+  /* Booking Section */
+  .booking {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+  }
+  
+  /* Add styles for booking form here */
+  
+  /* Contact Section */
+  .contact {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  /* Add styles for contact information and form here */
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* JavaScript for Slideshow (you can add this to your script.js file) */
+  
